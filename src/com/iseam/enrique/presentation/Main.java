@@ -33,6 +33,6 @@ public class Main {
         Inspeccion inspeccion = new Inspeccion();
         inspeccion.getCod(2);
         inspeccion.getFechainspeccion("12-10-2004");
-
+        inspeccion.getResultado(true);
     }
 }
