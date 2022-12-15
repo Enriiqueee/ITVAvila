@@ -5,6 +5,6 @@ public interface Vehiculo {
     public String getMarca();
     public String getModelo();
     public String getColor();
-    public String añomatriculacion();
+    public String getAñomatriculacion();
 
 }

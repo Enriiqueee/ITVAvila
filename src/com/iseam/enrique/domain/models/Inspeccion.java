@@ -4,6 +4,7 @@ public class Inspeccion {
     private Integer cod;
     private Integer inspeccion;
     private String fechainspeccion;
+    
     public Integer getCod() {
         return cod;
     }
@@ -38,4 +39,6 @@ public class Inspeccion {
     private Boolean resultado;
 
 
+    public void getCod(int i) {
+    }
 }

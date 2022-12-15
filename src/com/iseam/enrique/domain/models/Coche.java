@@ -39,7 +39,7 @@ public class Coche implements Vehiculo {
     }
 
     @Override
-    public String añomatriculacion() {
+    public String getAñomatriculacion() {
         return null;
     }
 }

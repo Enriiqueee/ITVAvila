@@ -39,7 +39,7 @@ public class Camion implements Vehiculo{
     }
 
     @Override
-    public String añomatriculacion() {
+    public String getAñomatriculacion() {
         return null;
     }
 }
