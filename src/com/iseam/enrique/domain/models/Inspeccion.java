@@ -1,9 +1,16 @@
 package com.iseam.enrique.domain.models;
 
 public class Inspeccion {
+    private Integer cod;
     private Integer inspeccion;
     private String fechainspeccion;
+    public Integer getCod() {
+        return cod;
+    }
 
+    public void setCod(Integer cod) {
+        this.cod = cod;
+    }
     public Integer getInspeccion() {
         return inspeccion;
     }

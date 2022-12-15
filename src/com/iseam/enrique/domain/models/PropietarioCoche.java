@@ -1,11 +1,22 @@
 package com.iseam.enrique.domain.models;
 
 public class PropietarioCoche {
+    private Integer cod;
     private String dni;
     private String Nombre;
     private String Apellidos;
     private String Direccion;
     private String Provincia;
+    private String Poblacion;
+    private Integer telefono;
+
+    public Integer getCod() {
+        return cod;
+    }
+
+    public void setCod(Integer cod) {
+        this.cod = cod;
+    }
 
     public String getDni() {
         return dni;
@@ -55,15 +66,14 @@ public class PropietarioCoche {
         Poblacion = poblacion;
     }
 
-    public String getTelefono() {
+    public Integer getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(String telefono) {
+    public void setTelefono(Integer telefono) {
         this.telefono = telefono;
     }
 
-    private String Poblacion;
-    private String telefono;
+
 
 }
